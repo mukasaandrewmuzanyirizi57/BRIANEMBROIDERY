@@ -625,32 +625,3 @@ audio {
   width: 100%;
   margin-top: 12px;
 }
-
-.gallery-container {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 20px;
-  align-items: stretch;
-}
-.gallery-container figure {
-  display: flex;
-  flex-direction: column;
-  background: var(--white);
-  margin: 0;
-  padding: 12px;
-  border-radius: var(--radius);
-  border: 1px solid var(--border);
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
-}
-.gallery-container img {
-  width: 100%;
-  height: 210px;
-  object-fit: cover;
-  border-radius: 6px;
-}
-.gallery-container figcaption {
-  color: var(--navy);
-  font-weight: bold;
-  text-align: center;
-  padding: 12px 4px 4px;
-}
